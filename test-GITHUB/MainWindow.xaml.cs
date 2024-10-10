@@ -20,5 +20,10 @@ namespace test_GITHUB
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            btnPress.Content = "ok";
+        }
     }
 }
